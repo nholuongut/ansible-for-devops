@@ -1,0 +1,17 @@
+---
+- hosts: all
+
+  vars:
+    ansible_install_method: pip
+    firewall_allowed_tcp_ports:
+      - "22"
+      - "8080"
+    jenkins_plugins:
+      - ansicolor
+
+  roles:
+    - nholuongut.firewall
+    - nholuongut.pip
+    - nholuongut.ansible
+    - nholuongut.java
+    - nholuongut.jenkins

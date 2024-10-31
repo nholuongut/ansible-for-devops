@@ -1,0 +1,11 @@
+---
+roles:
+  - name: nholuongut.firewall
+  - name: nholuongut.repo-epel
+  - name: nholuongut.varnish
+  - name: nholuongut.apache
+  - name: nholuongut.php
+  - name: nholuongut.php-mysql
+  - name: nholuongut.php-memcached
+  - name: nholuongut.mysql
+  - name: nholuongut.memcached

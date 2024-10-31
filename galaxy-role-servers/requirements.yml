@@ -1,0 +1,8 @@
+---
+roles:
+  - name: nholuongut.mysql
+  - name: nholuongut.apache
+  - name: nholuongut.php
+  - name: nholuongut.php-mysql
+  - name: nholuongut.java
+  - name: nholuongut.solr

@@ -1,0 +1,7 @@
+---
+roles:
+  - name: nholuongut.firewall
+  - name: nholuongut.pip
+  - name: nholuongut.ansible
+  - name: nholuongut.java
+  - name: nholuongut.jenkins

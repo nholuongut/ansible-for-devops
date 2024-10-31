@@ -1,0 +1,8 @@
+---
+roles:
+  - name: nholuongut.swap
+  - name: nholuongut.docker
+  - name: nholuongut.kubernetes
+
+collections:
+  - name: community.kubernetes
